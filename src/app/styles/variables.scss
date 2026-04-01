@@ -1,0 +1,50 @@
+:root {
+  --bg: #f8eef8;
+  --bg-soft: #f3e7f7;
+  --card: rgba(255, 255, 255, 0.72);
+  --text: #2a2340;
+  --muted: #7e6f98;
+  --accent: #b56cff;
+  --accent-2: #8ed8ff;
+  --border: rgba(126, 111, 152, 0.18);
+  --shadow: 0 10px 30px rgba(181, 108, 255, 0.12);
+  --radius-lg: 28px;
+  --radius-md: 20px;
+
+  --ui-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ui-speed-fast: 0.18s;
+  --ui-speed-normal: 0.28s;
+  --ui-speed-slow: 0.42s;
+
+  --section-space-xl: 112px;
+  --section-space-lg: 84px;
+  --section-space-md: 60px;
+  --section-space-sm: 36px;
+}
+
+@media (max-width: 1366px) {
+  :root {
+    --section-space-xl: 96px;
+    --section-space-lg: 72px;
+    --section-space-md: 52px;
+    --section-space-sm: 32px;
+  }
+}
+
+@media (max-width: 980px) {
+  :root {
+    --section-space-xl: 88px;
+    --section-space-lg: 68px;
+    --section-space-md: 48px;
+    --section-space-sm: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --section-space-xl: 72px;
+    --section-space-lg: 54px;
+    --section-space-md: 38px;
+    --section-space-sm: 22px;
+  }
+}
