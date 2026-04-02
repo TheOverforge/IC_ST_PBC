@@ -44,7 +44,7 @@
 
 ## Project Structure
 
-```
+```bash
 src/
 ├── app/        # Root component, global styles
 ├── pages/      # Landing, blog list, blog post, 404
